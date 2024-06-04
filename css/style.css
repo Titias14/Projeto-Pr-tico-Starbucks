@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 200px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+nav{
+    text-align: right;
+    width: 50%;
+    padding-top: 70px;
+    padding-right: 70px;
+}
+
+.logo{
+    width: 50%;
+    padding-left: 120px;
+    padding-top: 30px;
+}
+
+section .sobre{
+    position: relative;
+    height: calc(100% - 200px);
+}
+
+.extras{
+    position: absolute;
+    bottom: -450px;
+    right: -500px;
+    width: 990px;
+    height: 970px;
+    background-color: #017143;
+    border-radius: 50%;
+}
+
+.extras img{
+   width: 320px;
+   height: 470px;
+}
+
+.icons{
+    position: absolute;
+    right: 510px;
+    top: 200px;
+}
+
+.icons img{
+    width: 25px;
+    height: 20px;
+    display: block;
+    margin: 20px 0;
+}
+
+.texto-sobre span{
+    color: #017143;
+}
+
+.texto-sobre{
+    margin-top: 100px;
+    margin-left: 120px;
+}
+
+.texto-sobre h1{
+    font-size: 50px;
+}
+
+.texto-sobre p{
+    max-width: 400px;
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.texto-sobre button{
+    border: 0;
+    background-color: #017143;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.pics{
+    margin-left: 760px;
+    margin-top: 60px;
+}
+
+.pics img{
+    width: 80px;
+    height: 120px;
+}
